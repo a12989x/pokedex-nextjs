@@ -1,0 +1,19 @@
+.pokemanListItem {
+    background-color: #f7f7f7;
+    border-radius: 0.2rem;
+    font-size: 1.1rem;
+
+    &__link {
+        padding: 1rem;
+        color: #2b2b2b;
+        display: grid;
+        grid-template: 1fr / 1fr auto 3fr;
+        column-gap: 0.2rem;
+        align-items: center;
+        text-transform: capitalize;
+
+        span {
+            font-weight: bold;
+        }
+    }
+}
