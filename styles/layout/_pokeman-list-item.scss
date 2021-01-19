@@ -1,11 +1,11 @@
 .pokemanListItem {
-    background-color: #f7f7f7;
+    background-color: $white-color;
     border-radius: 0.2rem;
     font-size: 1.1rem;
 
     &__link {
         padding: 1rem;
-        color: #2b2b2b;
+        color: $black-color;
         display: grid;
         grid-template: 1fr / 1fr auto 3fr;
         column-gap: 0.2rem;
